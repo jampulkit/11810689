@@ -1,6 +1,6 @@
- 
+  
 #include<stdio.h> 
-
+#include<conio.h>
 
 void rr(int no,int remt[10],int Cur_t,int arT[10], int bsT[10]);
 
@@ -34,7 +34,7 @@ void main()
 		{ 
 			CurT+=remt[Proc_no]; 
 			remt[Proc_no]=0; 
-			indicator=1;-0 
+			indicator=1; 
 		} 
 		else if(remt[Proc_no]>0)
 		{ 
